@@ -1,0 +1,89 @@
+print("Welcome To Sharon GK Quiz !!")
+print("Are u ready to play??\n","Yes/No")
+player=input()
+if(player.lower()=="yes"):
+    print("Lets Start the Quizz!!")
+else:
+    quit()
+score=0
+q=input("1.What is the largest planet in our solar system?\n")
+if(q.lower()=="jupiter"):
+    print("Correct  Great Job!!")
+    score+=1
+else:
+    print("Incorrecrt  Try Again!!")
+
+q=input("2.What is the capital of France?\n")
+if(q.lower()=="paris"):
+    print("Correct  Great Job!!")
+    score+=1
+else:
+    print("Incorrecrt  Try Again!!")
+
+q=input("3.How many continents are there in the world?\n")
+if(q.lower()=="seven"or"7"):
+    print("Correct  Great Job!!")
+    score+=1
+else:
+    print("Incorrecrt  Try Again!!")
+
+q=input("4.What is the hardest natural substance on Earth?\n")
+if(q.lower()=="diamond"):
+    print("Correct  Great Job!!")
+    score+=1
+else:
+    print("Incorrecrt  Try Again!!")
+
+q=input("5.What is the largest ocean on Earth?\n")
+if(q.lower()=="pacific ocean"or"pacificocean"):
+    print("Correct  Great Job!!")
+    score+=1
+else:
+    print("Incorrecrt  Try Again!!")
+
+q=input("6.What is the longest river in the world?\n")
+if(q.lower()=="nile river"or"nileriver"):
+    print("Correct  Great Job!!")
+    score+=1
+else:
+    print("Incorrecrt  Try Again!!")
+
+q=input("7.How many planets are in our solar system?\n")
+if(q.lower()=="eight"or"8"):
+    print("Correct  Great Job!!")
+    score+=1
+else:
+    print("Incorrecrt  Try Again!!")
+
+q=input("8.Who was the first person to walk on the moon?\n")
+if(q.lower()=="neil armstrong"):
+    print("Correct  Great Job!!")
+    score+=1
+else:
+    print("Incorrecrt  Try Again!!")
+
+q=input("9.What is the chemical symbol for gold?\n")
+if(q.lower()=="au"):
+    print("Correct  Great Job!!")
+    score+=1  
+else:
+    print("Incorrecrt  Try Again!!")
+q=input("10.Who invented the telephone?\n")
+if(q.lower()=="alexander graham bell"):
+    print("Correct  Great Job!!")
+    score+=1
+else:
+    print("Incorrecrt  Try Again!!")
+
+if(score==10):
+    print("Congratulations!! You got 10/10")
+else:    
+    print("Your Score :", score,"/10")
+
+print("Do you like this quiz?? Yes/No")
+Feedback=input()
+if(Feedback.lower()=="yes"):
+    print("Thanks For your Feedback!!")
+else:
+    print("We will try to improve.")
+
